@@ -1,0 +1,41 @@
+.radioLabel {
+    display: grid;
+    grid-template-columns: min-content auto;
+    grid-gap: 0.5em;
+}
+
+.radioLabelChecked {
+    font-family: "Montserrat";
+    font-size: 24px;
+    @apply text-j-green-check font-medium;
+}
+
+.radioLabelUnchecked {
+    font-family: "Montserrat";
+    font-size: 24px;
+    @apply text-black font-medium;
+}
+
+.radioInput {
+    display: flex;
+    margin-top: 2px;
+    @apply text-j-white;
+    input {
+        opacity: 0;
+        width: 0;
+        height: 0;
+        &:checked+.radioControl {
+            @apply bg-white;
+            border: solid 9px #4DB7A7;
+        }
+    }
+}
+
+.radioControl {
+    @apply block rounded-full;
+    width: 1.6em;
+    height: 1.6em;
+    background-color: currentColor;
+    transform: translateY(-0.1em);
+    border: solid 2px black;
+}

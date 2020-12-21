@@ -1,0 +1,39 @@
+.container {
+    @apply mx-auto w-full max-w-full bg-j-white flex;
+}
+
+.navbar {
+    width: 400px;
+    padding-left: 100px;
+    @apply h-full;
+}
+
+.maincontent {
+    margin-left: 400px;
+}
+
+.menu_item_header {
+    font-size: 24px;
+    margin-top: 130px;
+    @apply uppercase text-black cursor-pointer;
+}
+
+.menu_item_header2 {
+    font-size: 24px;
+    margin-top: 100px;
+    @apply uppercase text-black cursor-pointer;
+}
+
+.menu_item {
+    font-size: 24px;
+    @apply text-j-gray mt-6 cursor-pointer;
+}
+
+.menu_item:hover {
+    @apply text-j-magenta;
+}
+
+.menu_item_active {
+    font-size: 24px;
+    @apply text-j-magenta font-bold mt-6 cursor-pointer
+}

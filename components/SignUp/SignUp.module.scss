@@ -1,0 +1,205 @@
+.container {
+    height: calc(100vh - 125px);
+    display: flex;
+}
+
+.containerItem {
+    display: flex;
+}
+
+.lcontainer {
+    display: block;
+    margin-left: 99px;
+    width: 100%;
+    margin-top: 101px;
+}
+
+.rcontainer {
+    display: block;
+    margin-left: 200px;
+    width: 100%;
+    margin-top: 103px;
+}
+
+.rtitle {
+    font-size: 36px;
+    @apply text-j-magenta font-bold;
+}
+
+.rdesc {
+    font-size: 20px;
+    font-family: 'Nobile';
+}
+
+.rbtnEnable {
+    @apply border border-j-white bg-j-orange text-j-white font-medium uppercase;
+    width: 300px;
+    height: 60px;
+    font-size: 24px;
+    margin-top: 40px;
+    font-family: "Montserrat";
+}
+
+.rbtnDisable {
+    @apply border border-j-white bg-j-ghostwhite text-j-white font-medium uppercase;
+    width: 300px;
+    height: 60px;
+    font-size: 24px;
+    margin-top: 40px;
+    font-family: "Montserrat";
+}
+
+.otpbtn {
+    @apply border-0 bg-none text-j-blue-otp font-medium;
+    font-size: 20px;
+}
+
+.phonefield {}
+
+.phonefield>div {
+    border-radius: 7px !important;
+    border-color: #CCCCCC !important;
+    width: 500px;
+    height: 60px;
+}
+
+.checked {
+    @apply border-j-green-check;
+    border-width: 8px;
+}
+
+.cfont {
+    @apply text-j-green-check font-medium;
+    margin-left: 35px;
+    margin-top: 5px;
+    font-size: 24px;
+}
+
+.lchecked {
+    @apply bg-j-green-check;
+    width: 24px;
+}
+
+.inputField {
+    width: 500px;
+    height: 60px;
+    border: none;
+    border-radius: 10px;
+}
+
+.inputField>div {
+    border-radius: 10px !important;
+    border-color: #CCCCCC !important;
+    width: 500px;
+    height: 60px;
+}
+
+.cardinputField {
+    height: 60px;
+    border: none;
+    border-radius: 10px;
+}
+
+.cardinputField>div {
+    border-radius: 10px !important;
+    border-color: #CCCCCC !important;
+    height: 60px;
+}
+
+.inputFieldInput {
+    border: none;
+}
+
+.step2TopP {
+    font-size: 24px;
+    font-family: 'Nobile';
+}
+
+.step2Note {
+    width: 620px;
+    padding: 35px 50px;
+    background: #FFFAE0 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    border-radius: 10px;
+    opacity: 1;
+}
+
+.step2NoteP {
+    font-size: 24px;
+    font-family: 'Nobile';
+    @apply text-j-magenta;
+}
+
+.otpWidth {
+    width: 300px;
+}
+
+.pan3Check {
+    width: 24px;
+    height: 24px;
+    margin-right: 18px;
+}
+
+.loginNoteP {
+    font-size: 24px;
+    font-family: 'Nobile';
+    @apply text-black font-medium;
+}
+
+.loginNotePs {
+    font-size: 18px;
+    font-family: 'Nobile';
+    @apply font-medium text-j-gray-light;
+}
+
+.bankP {
+    font-size: 20px;
+    font-family: 'Nobile';
+}
+
+.balanceInr {
+    font-size: 20px;
+    font-family: 'Nobile';
+    @apply text-j-orange;
+    margin: 20px;
+}
+
+.balanceImg {
+    @apply cursor-pointer;
+    width: 56px;
+    border-radius: 100%;
+}
+
+.balanceImgActive {
+    @apply balanceImg;
+    border: solid 1px #FFF;
+}
+
+.balanceImgDivActive {
+    @apply balanceImg;
+    border-radius: 100%;
+    border: solid 2px #EA725B;
+}
+
+.balancep {
+    @apply text-j-gray uppercase;
+    font-size: 12px;
+}
+
+.radioLabel {
+    padding-right: 110px !important;
+}
+
+.btnComplete {
+    @apply rbtnEnable;
+    width: 600px;
+}
+
+.completetitle {
+    font-size: 48px;
+    @apply text-j-magenta font-bold;
+}
+
+.ml300 {
+    margin-left: 330px;
+}

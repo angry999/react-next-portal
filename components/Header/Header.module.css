@@ -1,0 +1,46 @@
+.container {
+    @apply w-full flex flex-col;
+    height: 125px;
+    @apply bg-j-magenta text-j-white;
+}
+
+.logo {
+    width: 96px;
+    height: 96px;
+    @apply p-1 bg-j-white;
+    box-shadow: 0px 3px 6px #00000029;
+}
+
+.title {
+    font-size: 36px;
+    margin-top: auto;
+    margin-left: 26px;
+}
+
+.signUp {
+    font-size: 24px;
+    margin-top: auto;
+    margin-right: 27px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.signOut {
+    @apply signUp bg-j-magenta font-normal;
+    font-family: 'Nobile';
+}
+
+.ncontainer {
+    text-align: right;
+    margin-right: 50px;
+    margin-top: auto;
+}
+
+.fname {
+    font-size: 24px;
+}
+
+.lname {
+    font-size: 24px;
+    @apply uppercase font-semibold;
+}

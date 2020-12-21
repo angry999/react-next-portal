@@ -1,0 +1,60 @@
+.radioLabel {
+    display: grid;
+    grid-template-columns: min-content auto;
+    grid-gap: 0.5em;
+}
+
+.radioLabelChecked {
+    font-family: "Nobile";
+    margin-top: 2px;
+    font-size: 24px;
+    @apply text-j-green-check font-medium ml-6;
+}
+
+.radioLabelUnchecked {
+    margin-top: 2px;
+    font-family: "Nobile";
+    font-size: 24px;
+    @apply text-black font-medium ml-6;
+}
+
+.radioLabelDisabled {
+    margin-top: 2px;
+    font-family: "Nobile";
+    font-size: 24px;
+    @apply text-j-gray-lighter font-medium ml-6;
+}
+
+.radioInput {
+    display: flex;
+    @apply text-j-white;
+}
+
+.radioControl {
+    @apply block rounded-full;
+    width: 1.8em;
+    height: 1.8em;
+    background-color: currentColor;
+    transform: translateY(-0.1em);
+    border: solid 1px black;
+    margin-top: 2px;
+}
+
+.radioControlDisabled {
+    @apply block rounded-full;
+    width: 1.8em;
+    height: 1.8em;
+    background-color: currentColor;
+    transform: translateY(-0.1em);
+    border: solid 1px #CCCCCC;
+    margin-top: 2px;
+}
+
+.checkedStep {
+    @apply bg-j-green-check;
+    border-radius: 100%;
+    width: 1.8em;
+    height: 1.8em;
+    stroke-width: 4px;
+    padding: 2px;
+}
